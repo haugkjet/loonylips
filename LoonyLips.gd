@@ -7,6 +7,6 @@ func _ready():
 	var story =  "Once upon a time someone called %s ate a %s and became all %s. Is was a %s day"
 	# print (story % prompts)
 	
-	$DisplayText.text = story % prompts
+	$VBoxContainer/DisplayText.text = story % prompts
 
 
